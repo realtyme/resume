@@ -15,20 +15,20 @@ sogallo_btn.addEventListener('click', function(e){
 })
 
 var abwao_btn = document.getElementById('abwao-kraal')
-abwao.addEventListener('click', function(e){
-    videoSrc = abwao.getAttribute('data-bs-src')
+abwao_btn.addEventListener('click', function(e){
+    videoSrc = abwao_btn.getAttribute('data-bs-src')
 })
 
 // Virtual Reality
-var ndw_btn = document.getElementById('nairobi-design-week')
-ndw_btn.addEventListener('click', function(e){
-    videoSrc = ndw_btn.getAttribute('data-bs-src')
-})
+// var ndw_btn = document.getElementById('nairobi-design-week')
+// ndw_btn.addEventListener('click', function(e){
+//     videoSrc = ndw_btn.getAttribute('data-bs-src')
+// })
 
-var wstrn_btn = document.getElementById('wstrn-unload')
-wstrn_btn.addEventListener('click', function(e){
-    videoSrc = ndw_btn.getAttribute('data-bs-src')
-})
+// var wstrn_btn = document.getElementById('wstrn-unload')
+// wstrn_btn.addEventListener('click', function(e){
+//     videoSrc = ndw_btn.getAttribute('data-bs-src')
+// })
 
 
 var videoModal = document.getElementById('modal-youtube-videos')
