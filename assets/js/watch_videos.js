@@ -57,10 +57,20 @@ anatomy_vr_btn.addEventListener('click', function(e){
 
 
 // Metaverses
-// var anatomy_vr_btn = document.getElementById('anatomy-vr')
-// anatomy_vr_btn.addEventListener('click', function(e){
-//     videoSrc = anatomy_vr_btn.getAttribute('data-bs-src')
-// })
+var club_metaverse_btn = document.getElementById('club-metaverse')
+club_metaverse_btn.addEventListener('click', function(e){
+    videoSrc = club_metaverse_btn.getAttribute('data-bs-src')
+})
+
+var rangi_btn = document.getElementById('rangi')
+rangi_btn.addEventListener('click', function(e){
+    videoSrc = rangi_btn.getAttribute('data-bs-src')
+})
+
+var floating_mountains_btn = document.getElementById('floating-mountains')
+floating_mountains_btn.addEventListener('click', function(e){
+    videoSrc = floating_mountains_btn.getAttribute('data-bs-src')
+})
 
 
 // Animations
