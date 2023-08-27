@@ -19,18 +19,70 @@ abwao_btn.addEventListener('click', function(e){
     videoSrc = abwao_btn.getAttribute('data-bs-src')
 })
 
+var earth_btn = document.getElementById('earth')
+earth_btn.addEventListener('click', function(e){
+    videoSrc = earth_btn.getAttribute('data-bs-src')
+})
+
+var chem_btn = document.getElementById('chem-ar')
+chem_btn.addEventListener('click', function(e){
+    videoSrc = chem_btn.getAttribute('data-bs-src')
+})
+
 // Virtual Reality
-// var ndw_btn = document.getElementById('nairobi-design-week')
-// ndw_btn.addEventListener('click', function(e){
-//     videoSrc = ndw_btn.getAttribute('data-bs-src')
+var ndw_btn = document.getElementById('nairobi-design-week')
+ndw_btn.addEventListener('click', function(e){
+    videoSrc = ndw_btn.getAttribute('data-bs-src')
+})
+
+var vrfashion_btn = document.getElementById('vr-fashion')
+vrfashion_btn.addEventListener('click', function(e){
+    videoSrc = vrfashion_btn.getAttribute('data-bs-src')
+})
+
+var anatomy_xr_btn = document.getElementById('anatomy_xr')
+anatomy_xr_btn.addEventListener('click', function(e){
+    videoSrc = anatomy_xr_btn.getAttribute('data-bs-src')
+})
+
+var chem_lab_btn = document.getElementById('chem-lab-vr')
+chem_lab_btn.addEventListener('click', function(e){
+    videoSrc = chem_lab_btn.getAttribute('data-bs-src')
+})
+
+var anatomy_vr_btn = document.getElementById('anatomy-vr')
+anatomy_vr_btn.addEventListener('click', function(e){
+    videoSrc = anatomy_vr_btn.getAttribute('data-bs-src')
+})
+
+
+// Metaverses
+// var anatomy_vr_btn = document.getElementById('anatomy-vr')
+// anatomy_vr_btn.addEventListener('click', function(e){
+//     videoSrc = anatomy_vr_btn.getAttribute('data-bs-src')
 // })
 
-// var wstrn_btn = document.getElementById('wstrn-unload')
-// wstrn_btn.addEventListener('click', function(e){
-//     videoSrc = ndw_btn.getAttribute('data-bs-src')
-// })
+
+// Animations
+var mama_otis_btn = document.getElementById('mama-otis-animation')
+mama_otis_btn.addEventListener('click', function(e){
+    videoSrc = mama_otis_btn.getAttribute('data-bs-src')
+})
+
+var mark_angel_btn = document.getElementById('mark-angel-comedy')
+mark_angel_btn.addEventListener('click', function(e){
+    videoSrc = mark_angel_btn.getAttribute('data-bs-src')
+})
 
 
+// Tools | Python and Blutilities for Unreal Engine 5
+var python_btn = document.getElementById('python-blutilities')
+python_btn.addEventListener('click', function(e){
+    videoSrc = python_btn.getAttribute('data-bs-src')
+})
+
+
+// Finally! Get the link. Autoplay isn't working for all devices
 var videoModal = document.getElementById('modal-youtube-videos')
 var video = document.getElementById('video')
 var videoSrc
