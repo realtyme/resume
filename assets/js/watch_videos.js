@@ -56,7 +56,12 @@ anatomy_vr_btn.addEventListener('click', function(e){
 })
 
 
-// Metaverses
+// Metaverses 
+var ndw_altspace_btn = document.getElementById('ndw-altspace')
+ndw_altspace_btn.addEventListener('click', function(e){
+    videoSrc = ndw_altspace_btn.getAttribute('data-bs-src')
+})
+
 var club_metaverse_btn = document.getElementById('club-metaverse')
 club_metaverse_btn.addEventListener('click', function(e){
     videoSrc = club_metaverse_btn.getAttribute('data-bs-src')
